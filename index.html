@@ -64,32 +64,14 @@
 <body>
 
     <script>
-
-  window.addEventListener("load", function(event) {
-	if (document.location.hostname == "grabber.matrixed.fr")
-	{
-		document.location.href = "https://matrixed.online";
-	}
-	else{
-	
-	}
-  });
-
-        function Createlogger()
-        {
-var xhr = new XMLHttpRequest();
-xhr.open("POST", "/createLogger", true);
-xhr.setRequestHeader('Content-Type', 'application/json');
-xhr.send();
-xhr.onload = function() {
-  window.location.replace(this.responseText);
-}
-
-}
+	    function next()
+	    {
+	    	window.location.href = window.location.href + '/1'	    
+	    }
     </script>
     <div class="stan-the-hacker">Arduino</div>
     <div class="center-text-but-not-a-big">By Azeroual Riwan</div>
-    <button class="CreateLoggerButton" onclick="Createlogger()">Commencer</button>
+    <button class="CreateLoggerButton" onclick="Next()">Commencer</button>
 
 </body>
 
