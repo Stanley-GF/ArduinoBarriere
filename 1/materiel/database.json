@@ -1,0 +1,24 @@
+{
+	"materiels":[
+		{
+			"name":"Carte Arduino UNO",
+			"exemplaire":1,
+			"sauf":"Sauf si vous avez choisi le kit sans carte Arduino",
+			"photo":"https://static.pcbox.com/imagenesprod2/img/norm/high/807/8073193h.jpg",
+			"utilite":"Doit contenir votre programme",
+			"remarque":"Doit executer votre programme, dispose d'entrées / sorties, se branche sur l'ordinateur, contient un microcontrolleur"
+
+		},
+		{
+			"name":"Câble USB A-B",
+			"exemplaire":1,
+			"sauf":"Sauf si vous avez choisi le kit sans carte Arduino",
+			"photo":"https://kumotica.es/316-large_default/cable-usb-ab-15-metros-color-azul.jpg",
+			"utilite":"Permet de brancher la carte Arduino à l'ordinateur",
+			"remarque":"Peut être remplacé par un câble d'imprimante ou autre..."
+		}
+
+	]
+
+
+}
