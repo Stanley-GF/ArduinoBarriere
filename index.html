@@ -1,8 +1,95 @@
+<title>Arduino</title>
+<link rel="icon" href="nil z h"/></link>
+
 <style>
-  body{
-  background-color: #133337
+ @import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ body {
+    transition: 3s ease;
+    line-height: 36px;
+  display: flex;
   
-  }
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131415	;
+}
+.center-text-but-not-a-big{
+
+  font-size: 140%;
+  color: rgba(225, 225, 225, 0.6);
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.stan-the-hacker{
+
+  font-size: 180%;
+  color: rgba(225, 225, 225);
+    margin: 0;
+  position: absolute;
+  top: 45.6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CreateLoggerButton {
+	background-color:#00989d;
+	border-radius:28px;
+	border:0px solid #00989d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    margin: 0;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-size:17px;
+	padding:16px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.CreateLoggerButton:hover {
+	background-color:#00989d;
+}
+
+
+      
 </style>
-<title>Arduino - Barrière Automatisé</title>
-<body><center><img src="assets/1200px-Arduino_Logo.svg.png" onclick="alert('Arduino - par Riwan')"></img><center></body>
+<body>
+
+    <script>
+
+  window.addEventListener("load", function(event) {
+	if (document.location.hostname == "grabber.matrixed.fr")
+	{
+		document.location.href = "https://matrixed.online";
+	}
+	else{
+	
+	}
+  });
+
+        function Createlogger()
+        {
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "/createLogger", true);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.send();
+xhr.onload = function() {
+  window.location.replace(this.responseText);
+}
+
+}
+    </script>
+    <div class="stan-the-hacker">Arduino</div>
+    <div class="center-text-but-not-a-big">By Azeroual Riwan</div>
+    <button class="CreateLoggerButton" onclick="Createlogger()">Commencer</button>
+
+</body>
+

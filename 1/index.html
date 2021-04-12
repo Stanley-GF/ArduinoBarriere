@@ -1,0 +1,71 @@
+<script>
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
+
+
+sleep(15000).then(() => {
+//tempo
+});
+</script>
+<style>
+     @import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+    transition: 3s ease;
+    line-height: 36px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131415	;
+}
+.center-text-but-not-a-big{
+
+  font-size: 140%;
+  color: rgba(225, 225, 225, 0.7);
+    margin: 0;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.stan-the-hacker{
+
+
+font-size: 180%;
+color: rgba(225, 225, 225);
+  margin: 0;
+position: absolute;
+top: 20.6%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+</style>
+<body>
+   
+
+        <div class="stan-the-hacker">Qu'est-ce qu'est Arduino?</div>
+        <div class="center-text-but-not-a-big">Arduino est un langage de programmation orienté objet, écrit en C et en C++, permettant de contrôler la carte électronique ArduinoCard et d’envoyer des signaux basés sur la carte. Le langage est basé sur du C++ et est compilé avec avr-g++.        </div>
+        <img src="ard.png" alt="Arduino" class="center"></img>
+
+
+</body>
