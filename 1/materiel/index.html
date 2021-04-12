@@ -52,7 +52,13 @@
   opacity: 0;
   transition: opacity 0.3s;
 }
-
+	.riwan-centre{
+	
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	}
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
@@ -202,7 +208,7 @@ function buildTable(data){
                         <td>${data[i].name}</td>
                         <td>${data[i].exemplaire}</td>
                         <td>${data[i].sauf}</td>
-                        <td><img src="${data[i].photo}"</img></td>
+                        <td><img src="${data[i].photo}" class="riwan-centre"></img></td>
                         <td>${data[i].utilite}</td>
                         <td>${data[i].remarque}</td>
                    </tr>`
