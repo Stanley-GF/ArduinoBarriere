@@ -140,8 +140,8 @@ border-style: none;
     return xmlHttp.responseText;
 }
 
-var y = JSON.parse(IHateJs("https://pastebin.com/raw/r4YprctL"))
-var myArray = y.materiels
+var y = JSON.parse(IHateJs(window.location.href + "database.json"))
+var myArray = y.materiels;
 
 buildTable(myArray)
 
