@@ -1,12 +1,8 @@
 <script>
-function sleep (time) {
-  return new Promise((resolve) => setTimeout(resolve, time));
-}
-
-
-sleep(15000).then(() => {
-  document.location.href = document.location.href + "materiel";
-});
+  function Next()
+  {
+    window.location.href = window.location.href + '/materiel'
+  }
 </script>
 <style>
      @import url("https://fonts.googleapis.com/css?family=Roboto");
