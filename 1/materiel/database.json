@@ -16,8 +16,97 @@
 			"photo":"https://kumotica.es/316-large_default/cable-usb-ab-15-metros-color-azul.jpg",
 			"utilite":"Permet de brancher la carte Arduino à l'ordinateur",
 			"remarque":"Peut être remplacé par un câble d'imprimante ou autre..."
+		},
+		
+		{
+			"name":"Shield de connexions Grove UNO",
+			"exemplaire":1,
+			"sauf":"Sauf si vous avez choisi le kit sans carte shield de connexions Grove",
+			"photo":"http://duinoedu.com/store1/58-large_default/10-shield-de-connexion-grove-pour-uno.jpg",
+			"utilite":"Permet de connecter facilement les modules",
+			"remarque":"Se monte sur la carte Arduino UNO, N'a pas d'intelligence"
+		},
+		
+		{
+			"name":"Arduino augmenté"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"https://www.duinoedu.com/wa_images/arduino_augmente_college_lycee_duinoedu.png?v=1cvegjf",
+			"utilite":"Permet de programmer nos modules en mode graphique ou avec le code.",
+			"remarque":"Téléchargeable ici: https://bit.ly/3e3KTBD"
+		},
+		
+		{
+			"name":"Câbles Grove"
+			"exemplaire":5,
+			"sauf":"",
+			"photo":"https://static.generation-robots.com/3944-product_cover/grove-servo-connection-cables-pack-of-5-.jpg",
+			"utilite":"Permettent de brancher les modules Grove sur le shield de connexions Grove",
+			"remarque":""
+		},	
+		
+		{
+			"name":"Câbles Grove avec pointes"
+			"exemplaire":3,
+			"sauf":"",
+			"photo":"https://http2.mlstatic.com/D_NQ_NP_747716-MLM26892963948_022018-O.jpg",
+			"utilite":"Permettent de brancher des modules et composants non Grove",
+			"remarque":"(Servomoteur, plaque d'essais LAB...)"
+		},
+				
+		{
+			"name":"Module LED verte"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"https://www.gotronic.fr/ori-led-verte-3-ou-5-mm-grove-104030007-19001.jpg",
+			"utilite":"S'allume ou s'éteint pour signaler l'ouverture de la barrière",
+			"remarque":"Se branche avec 1 câble Grove, Utilise 1 seule broche"
+		},
+						
+		{
+			"name":"Module Poussoir Grove"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"https://www.gotronic.fr/ori-module-bouton-grove-111020000-19010.jpg",
+			"utilite":"Vous permet de détecter un appui",
+			"remarque":"Se branche avec 1 câble Grove, Utilise 1 seule broche"
+		},
+								
+		{
+			"name":"Module servo Dupont"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"http://duinoedu.com/store1/311-thickbox_default/servomoteur-angulaire-9g-axe-plastique.jpg",
+			"utilite":"Vous permet d'ouvrir ou fermer une barrière (ou autre)",
+			"remarque":"Se branche avec 1 câble Grove, Utilise 1 seule broche"
+		},
+		
+		{
+			"name":"Module Afficheur LCD I2C"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"https://laboutiquedumaker.com/img/p/1/2/5/125-large_default.jpg",
+			"utilite":"Permet d'afficher des valeurs ou du texte",
+			"remarque":"Se branche avec 1 câble Grove, Utilise 2 broches, se branche sur I2C"
+		},
+				
+		{
+			"name":"Module Récepteur infra-rouges 38K"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"https://ae01.alicdn.com/kf/HTB1TThfPFXXXXa5XFXXq6xXFXXXq/Module-r-cepteur-infrarouge-Mini-38KHz-pour-Arduino-Module-r-cepteur-infrarouge.jpg",
+			"utilite":"Permet de recevoir des ordres d'une télécommande infra rouges",
+			"remarque":"Se branche avec 1 câble Grove, utilise 1 broche"
+		},
+		
+		{
+			"name":"Télécommande infra-rouges 38K"
+			"exemplaire":1,
+			"sauf":"",
+			"photo":"https://ae01.alicdn.com/kf/HTB1TThfPFXXXXa5XFXXq6xXFXXXq/Module-r-cepteur-infrarouge-Mini-38KHz-pour-Arduino-Module-r-cepteur-infrarouge.jpg",
+			"utilite":"Permet d'envoyer des ordres au récepteur infra-rouges",
+			"remarque":"Cette télécommande dispose de la gestion ultra simplifiée DuinoEDU"
 		}
-
 	]
 
 
