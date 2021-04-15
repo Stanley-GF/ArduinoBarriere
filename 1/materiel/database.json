@@ -28,7 +28,7 @@
 		},
 		
 		{
-			"name":"Arduino augmenté"
+			"name":"Arduino augmenté",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"https://www.duinoedu.com/wa_images/arduino_augmente_college_lycee_duinoedu.png?v=1cvegjf",
@@ -37,7 +37,7 @@
 		},
 		
 		{
-			"name":"Câbles Grove"
+			"name":"Câbles Grove",
 			"exemplaire":5,
 			"sauf":"",
 			"photo":"https://static.generation-robots.com/3944-product_cover/grove-servo-connection-cables-pack-of-5-.jpg",
@@ -46,7 +46,7 @@
 		},	
 		
 		{
-			"name":"Câbles Grove avec pointes"
+			"name":"Câbles Grove avec pointes",
 			"exemplaire":3,
 			"sauf":"",
 			"photo":"https://http2.mlstatic.com/D_NQ_NP_747716-MLM26892963948_022018-O.jpg",
@@ -55,7 +55,7 @@
 		},
 				
 		{
-			"name":"Module LED verte"
+			"name":"Module LED verte",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"https://www.gotronic.fr/ori-led-verte-3-ou-5-mm-grove-104030007-19001.jpg",
@@ -64,7 +64,7 @@
 		},
 						
 		{
-			"name":"Module Poussoir Grove"
+			"name":"Module Poussoir Grove",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"https://www.gotronic.fr/ori-module-bouton-grove-111020000-19010.jpg",
@@ -73,7 +73,7 @@
 		},
 								
 		{
-			"name":"Module servo Dupont"
+			"name":"Module servo Dupont",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"http://duinoedu.com/store1/311-thickbox_default/servomoteur-angulaire-9g-axe-plastique.jpg",
@@ -82,7 +82,7 @@
 		},
 		
 		{
-			"name":"Module Afficheur LCD I2C"
+			"name":"Module Afficheur LCD I2C",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"https://laboutiquedumaker.com/img/p/1/2/5/125-large_default.jpg",
@@ -91,7 +91,7 @@
 		},
 				
 		{
-			"name":"Module Récepteur infra-rouges 38K"
+			"name":"Module Récepteur infra-rouges 38K",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"https://ae01.alicdn.com/kf/HTB1TThfPFXXXXa5XFXXq6xXFXXXq/Module-r-cepteur-infrarouge-Mini-38KHz-pour-Arduino-Module-r-cepteur-infrarouge.jpg",
@@ -100,7 +100,7 @@
 		},
 		
 		{
-			"name":"Télécommande infra-rouges 38K"
+			"name":"Télécommande infra-rouges 38K",
 			"exemplaire":1,
 			"sauf":"",
 			"photo":"https://ae01.alicdn.com/kf/HTB1TThfPFXXXXa5XFXXq6xXFXXXq/Module-r-cepteur-infrarouge-Mini-38KHz-pour-Arduino-Module-r-cepteur-infrarouge.jpg",
