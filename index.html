@@ -25,6 +25,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+	
 .stan-the-hacker{
 
   font-size: 180%;
@@ -67,6 +68,10 @@
 	    {
 	    	window.location.href = window.location.href + '1'	    
 	    }
+	    if (window.location.protocol == "http:"){
+
+window.location.protocol = "https:"
+}
     </script>
     <div class="stan-the-hacker">Arduino</div>
     <div class="center-text-but-not-a-big">By Azeroual Riwan</div>
