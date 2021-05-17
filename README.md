@@ -9,3 +9,9 @@ Un projet (privé) expliquant le fonctionnement d'une barrière automatisé avec
 4. https://stanleydev.me/ArduinoBarriere/groove/
 5. https://stanleydev.me/ArduinoBarriere/ardublock/
 6. 
+
+# To Do
+
+Expliquer le fonctionnement du texte
+
+On définit notre chaine de caractères, le nombre de colonnes utilisés (Si l'array commence à 0, on utilisera alors le texte `Bonjour` qui aura alors 6 colonnes pour `0` ligne).
