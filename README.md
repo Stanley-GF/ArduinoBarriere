@@ -8,7 +8,7 @@ Un projet (privé) expliquant le fonctionnement d'une barrière automatisé avec
 3. https://stanleydev.me/ArduinoBarriere/1/materiel/
 4. https://stanleydev.me/ArduinoBarriere/groove/
 5. https://stanleydev.me/ArduinoBarriere/ardublock/
-6. 
+6. https://stanleydev.me/ArduinoBarriere/ardublock/ardublock
 
 # To Do
 
